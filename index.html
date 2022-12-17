@@ -8,65 +8,80 @@
     <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
-    <div class="header">
-        <a href="#">Placeholder Logo</a>
-        <div class = "right-links">
-            <a href="#">Header Link One</a>
-            <a href="#">Header Link Two</a>
-            <a href="#">Header Link Three</a>
+    <div class="navbar">
+        <a href="#" class = "logo"> A ⛰️ Logo</a>
+        <div class = "sticky-header-right-links">
+            <ul class = "nav-justify-end">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">My Stuff</a></li>
+                <li><a href="#">Messages</a></li>
+        </ul>
         </div>
     </div>
+
     <div class = "hero-block">
-        <div class="herotext">This Website Slaps</div>
-        <p>This website is about the best thing on Earth, me. I rule.
-            But it's not just me that rules, we all rule. Let's be proud of us. Just because thus
-        text is smaller than the header above doesn't mean it's any less significant</p>
-        <button class="signupbutton">Sign Up</button>
-        <img src = "images/landscape.jpg" alt="picture of a frozen lake">
+        <div class = "hero-container">
+            <div class="hero-text">What a website.</div>
+            <div class = "hero-paragraph">
+                This website is about the best thing on Earth, me. I rule.
+                But it's not just me that rules, we all rule. Let's be proud of us. Just because this
+                text is smaller than the header above doesn't mean it's any less significant
+            </div>
+            <button class="signup-button" style="
+            margin-left: 80px;
+            margin-top: 25px;">Sign Up</button>  
+        </div>
+        <img src = "images/mount.png" class = "mountain" alt="picture of a frozen lake">
     </div>
 
     <div class = "information">
-        <h2>This is just some information about how greatness</h2>
-        <div class="container">
+        <div class = "information-title">Random information.</div>
+        <div class="icon-container">
             <div class ="info">
-                <img src ="images/isometric.png" alt="3D isometric squares">
-                <div class="text">Just some text talking about this shape</div>
+                <img src ="images/isometric.png" class = "icon" alt="3D isometric squares">
+                <div class="text">Just some random text</div>
             </div>
             <div class ="info">
-                <img src ="images/cross.png" alt="3D cross">
+                <img src ="images/cross.png" class = "icon" alt="3D cross">
                 <div class="text">Maybe you want this text?</div>
             </div>
             <div class ="info">
-                <img src ="images/sphere.png" alt=" 3Disometric squares">
-                <div class="text">No,no it has to be this text</div>
+                <img src ="images/sphere.png" class = "icon" alt=" 3Disometric squares">
+                <div class="text">No,no it has to be this text!</div>
             </div>
             <div class ="info">
-                <img src ="images/cone.png" alt="isometric squares">
+                <img src ="images/cone.png" class = "icon" alt="isometric squares">
                 <div class="text">You're all wrong, this is the text</div>
             </div>
         </div>
     </div>
 
     <div class = "quote">
-        <div class="quotetext">
+        <div class="quote-text">
             This is just some inspirational guff made up by me on a whim to fill space.
             It's a complete and total waste of everyone involved's time, I could have just
             copy pasted song lyrics, or maybe just the loren ipsum thing.. and yet, I didn't.
             Ah well.
         </div>
-        <div class="quoteheader">-Me</div>
+        <div class="quote-signature">-Me</div>
     </div>
 
     <div class = "signup">
-        <div class="signupheader">It's Time to Sign!</div>
-        <div class="signuptext">Time to sign up and give me all of your personal information! :D</div>
-        <button class="signupbutton">Sign Up</button>
+        <div class = "singup-container">
+            <div class="signup-header">It's Time to Sign!</div>
+            <div class="signup-text">It's time for you to make that commitment to whatever this website is.</div>
+        </div>
+        <button class="signup-button">Sign Up</button>
     </div>
+ 
 
     <div class = "footer">
-        Copyright @ The Odin Project 2022
+        <div class = "footer-link-one">
+        <a href = "https://theodinproject.com"></a>Copyright @ The Odin Project 2022
+        </div>
+        <div class = "footer-link-two">
         <a href="https://www.flaticon.com/free-icons/3d-shapes" title="3d shapes icons">3d shapes icons created by Freepik - Flaticon</a>
-
+        </div>
     </div>
     
 </body>
